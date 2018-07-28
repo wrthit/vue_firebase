@@ -1,6 +1,6 @@
 # employeemanager
 
-> simple employee
+> simple employee managerment CRUD web page with authentication implemented by following https://www.youtube.com/playlist?list=PL-9FEtEKITzIZZRhdO7PBtCQWkFyzaEMH
 
 ## Build Setup
 
