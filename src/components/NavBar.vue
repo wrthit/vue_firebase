@@ -5,6 +5,9 @@
                 <router-link to="/" class="brand-logo">Employee Manager</router-link>
                 <ul class="right">
                     <li v-if="isLoggedIn">
+                        <span class="email black-text">{{currentUser}}</span>
+                    </li>
+                    <li v-if="isLoggedIn">
                         <router-link to="/">Home</router-link>
                     </li>
                     <li v-if="!isLoggedIn">
@@ -47,3 +50,9 @@
         }
     }
 </script>
+
+<style scoped>
+    .email{
+        padding-right:10px;
+    }
+</style>
