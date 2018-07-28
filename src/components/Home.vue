@@ -1,5 +1,5 @@
 <template>
-    <div id="dashboard">
+    <div id="home">
         <ul class="collection with-header">
             <li class="collection-header">
                 <h4>Employees</h4>
@@ -25,7 +25,7 @@
 <script>
 import db from './firebaseInit'
 export default {
-    name: 'dashboard',
+    name: 'home',
     data () {
         return {
             employees: []
